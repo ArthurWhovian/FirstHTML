@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Formulário de Inscrição</title>
+</head>
+
+<body>
+    <nav>
+        <p>Navegue entre os arquivos de estudo</p>
+        <a href="/index.html">Primeira Página</a> |
+        <a href="/links/index.html">Links</a> |
+        <a href="/titulos/">Titulos</a> |
+        <a href="/comentarios/">Comentarios</a> |
+        <a href="/listaDeLeitura/">Lista de leitura</a> |
+        <a href="/formatacao/">Formatação</a> |
+        <a href="/br-e-hr/">Quebra de linha e linha horizontal</a> |
+        <a href="/div-e-span/">Bloco DIV e SPAN</a> |
+        <a href="/listas/index.html">Listas</a> |
+        <a href="/tabelas/index.html">Tabelas</a> |
+        <a href="/acessibilidade/index.html">Acessibilidade</a> |
+        <a href="formularios/formularios.html">Formulários</a> |
+        <a href="formularios/inputs.html">Formulários Inputs</a> |
+        <a href="semantica/index.html">Semântica</a> |
+        <a href="/exercicio1-Jupiter/">Exercicio1 - Jupiter</a> |
+        <a href="/exercicio2-siteTechWare/index.html">Exercicio2 - site TechWare</a> |
+        <a href="/exercicio3-Album/index.html">Exercicio3 - Album</a> |
+        <a href="/exercicio4-Tabela/index.html">Exercicio4 - Tabela</a> |
+        <a href="/exercicio5-Formulario/index.html">Exercicio5 - Formulario</a> |
+        <a href="/exercicioFinal-SiteCompleto/index.html">Exercicio Final - Site Completo</a>
+    </nav>
+    <h1>Formulário de Inscrição</h1>
+    <form action="#" method="post">
+        <div>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="telefone">WhatsApp:</label><br>
+            <input type="tel" id="tel" name="telefone" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label>Área de atuação:</label><br>
+
+            <input type="radio" name="area" id="desenvolvimento" value="desenvolvimento">
+            <label for="desenvolvimento">Desenvolvimento</label>
+
+            <input type="radio" name="area" id="qa" value="qa">
+            <label for="qa">Quality Assurance (QA)</label>
+
+            <input type="radio" name="area" id="analiseDeDados" value="analiseDeDados">
+            <label for="analiseDeDados">Análise de Dados</label>
+
+            <input type="radio" name="area" id="infraestrutura" value="infraestrutura">
+            <label for="infraestrutura">Infraestrutura</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="observacoes">Observações:</label><br>
+            <textarea name="observacoes" id="obs" cols="25" rows="3"></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="checkbox" name="ofertas" id="ofertas">
+            <label for="ofertas">Desejo receber novidades e ofertas por email.</label>
+        </div>
+
+        <br>
+
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+
+</html>
